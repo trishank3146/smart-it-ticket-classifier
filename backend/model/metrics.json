@@ -1,0 +1,161 @@
+{
+  "train_size": 944,
+  "test_size": 237,
+  "corrections_used": 0,
+  "accuracy": 0.9494,
+  "labels": [
+    "Access",
+    "Database",
+    "Email",
+    "Hardware",
+    "Network",
+    "Printer",
+    "Security",
+    "Software"
+  ],
+  "report": {
+    "Access": {
+      "precision": 0.9,
+      "recall": 0.9310344827586207,
+      "f1-score": 0.9152542372881356,
+      "support": 29.0
+    },
+    "Database": {
+      "precision": 0.9655172413793104,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9491525423728814,
+      "support": 30.0
+    },
+    "Email": {
+      "precision": 0.9354838709677419,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9508196721311475,
+      "support": 30.0
+    },
+    "Hardware": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1-score": 0.9523809523809523,
+      "support": 30.0
+    },
+    "Network": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 29.0
+    },
+    "Printer": {
+      "precision": 0.9642857142857143,
+      "recall": 0.9310344827586207,
+      "f1-score": 0.9473684210526315,
+      "support": 29.0
+    },
+    "Security": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9655172413793104,
+      "support": 30.0
+    },
+    "Software": {
+      "precision": 0.9310344827586207,
+      "recall": 0.9,
+      "f1-score": 0.9152542372881356,
+      "support": 30.0
+    },
+    "accuracy": 0.9493670886075949,
+    "macro avg": {
+      "precision": 0.9506765273102871,
+      "recall": 0.9494252873563218,
+      "f1-score": 0.9494684129866493,
+      "support": 237.0
+    },
+    "weighted avg": {
+      "precision": 0.9506248136716589,
+      "recall": 0.9493670886075949,
+      "f1-score": 0.9494084238753379,
+      "support": 237.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      27,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      28,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      27,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      28,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      27
+    ]
+  ]
+}
