@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Trained model (rebuilt with: python train_model.py)
+backend/model/*.joblib
+
+# Node / React
+node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
